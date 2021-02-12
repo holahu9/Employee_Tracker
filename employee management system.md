@@ -11,7 +11,7 @@ The Employee Tracker application contains database tables for department, role a
 * [questions](#questions)
 * [video](#video)
 * [Repository](#Repository)
-* [Output](#Output)
+
 
 ## Installation
 Install Inquire, Console Table, MySql,Express using npm
@@ -31,9 +31,9 @@ To execute this application, perform the following command:
 * SQL
 
 
-## Output
+## Videos
 * The following link shows html file generated with this app
- Direct Link: 
+ Direct Link: https://drive.google.com/file/d/1o-VsTs8pQ1cUJ0LnySgXzu5yG6NTu7TC/view?usp=sharing
 
 ## Questions
 If there are any questions about this **Employee Management System** application, then please feel
