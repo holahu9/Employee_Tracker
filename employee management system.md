@@ -35,6 +35,9 @@ To execute this application, perform the following command:
 * The following link shows html file generated with this app
  Direct Link: https://drive.google.com/file/d/1o-VsTs8pQ1cUJ0LnySgXzu5yG6NTu7TC/view?usp=sharing
 
+ ## Output
+
+
 ## Questions
 If there are any questions about this **Employee Management System** application, then please feel
  free to contact me at either my GitHub profile
