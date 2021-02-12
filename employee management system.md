@@ -36,7 +36,9 @@ To execute this application, perform the following command:
  Direct Link: https://drive.google.com/file/d/1o-VsTs8pQ1cUJ0LnySgXzu5yG6NTu7TC/view?usp=sharing
 
  ## Output
-
+![Screen Shot 2021-02-11 at 10 55 12 PM](https://user-images.githubusercontent.com/70487513/107728643-9c7cad00-6cbc-11eb-80b0-902adc30377a.png)
+![Screen Shot 2021-02-11 at 10 56 21 PM](https://user-images.githubusercontent.com/70487513/107728648-9f779d80-6cbc-11eb-9062-9981390068d6.png)
+![Screen Shot 2021-02-11 at 10 57 17 PM](https://user-images.githubusercontent.com/70487513/107728652-a2728e00-6cbc-11eb-8a97-93930140c3bf.png)
 
 ## Questions
 If there are any questions about this **Employee Management System** application, then please feel
