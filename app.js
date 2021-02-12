@@ -1,6 +1,6 @@
 var mysql = require("mysql");
 var inq = require("inquirer");
-var table = require("console.table");
+var table = require("console.table");  // to display sql data in table format at command line
 var add = require("./lib/add");
 var update = require("./lib/update");
 var view = require("./lib/view");
@@ -19,12 +19,13 @@ connection.connect(function(err) {
   exports.start();
 });
 
+// function to display menu options
 exports.start = () => {
     inq.prompt([
         {
             type: "list",
             message: "What would you like to do?",
-            name: "choice",
+            name: "action",
             choices: [
                 "View All Employees",
                 "Add Employee",
@@ -33,17 +34,18 @@ exports.start = () => {
             ]
         }
     ])
-    .then(function(answer) {
-      if(answer.choice === "View All Employees") {
+    //based upon user inputs, call the function
+    .then((answer) => {
+      if(answer.action === "View All Employees") {
         view.viewAllEmployees();
       }
-      else if(answer.choice === "Add Employee") {
+      else if(answer.action === "Add Employee") {
         add.addEmployee();
       }      
-      else if(answer.choice === "Update Employee Role") {
+      else if(answer.action === "Update Employee Role") {
         update.updateRole();
       }
-      else if(answer.choice === "EXIT") {
+      else if(answer.action === "EXIT") {
         connection.end();
         return
       }
